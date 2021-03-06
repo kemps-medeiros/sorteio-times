@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sorteio-times/static/css/main.81a2a60d.chunk.css",
+    "main.js": "/sorteio-times/static/js/main.7aac64a9.chunk.js",
+    "main.js.map": "/sorteio-times/static/js/main.7aac64a9.chunk.js.map",
+    "runtime-main.js": "/sorteio-times/static/js/runtime-main.3aec3dac.js",
+    "runtime-main.js.map": "/sorteio-times/static/js/runtime-main.3aec3dac.js.map",
+    "static/js/2.d98e326b.chunk.js": "/sorteio-times/static/js/2.d98e326b.chunk.js",
+    "static/js/2.d98e326b.chunk.js.map": "/sorteio-times/static/js/2.d98e326b.chunk.js.map",
+    "index.html": "/sorteio-times/index.html",
+    "static/css/main.81a2a60d.chunk.css.map": "/sorteio-times/static/css/main.81a2a60d.chunk.css.map",
+    "static/js/2.d98e326b.chunk.js.LICENSE.txt": "/sorteio-times/static/js/2.d98e326b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3aec3dac.js",
+    "static/js/2.d98e326b.chunk.js",
+    "static/css/main.81a2a60d.chunk.css",
+    "static/js/main.7aac64a9.chunk.js"
+  ]
+}
