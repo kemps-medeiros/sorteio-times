@@ -1,38 +1,150 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2ed573;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: #7bed9f;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header__title h1 {
+  font-size: 40px;
+  color: #2f3542;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input__players {
+  width: 100%;
+}
+
+.input__players__text {
+  margin-top: 15px;
+}
+
+.input__players__input {
+  margin-top: 20px;
+}
+
+.player1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 700;
+}
+
+.player1 input {
+  width: 180px;
+  margin-top: 7px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.player2 {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+.player2 input {
+  width: 180px;
+  height: 25px;
+  margin-top: 7px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.teams {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.team_yellow {
+  width: 50%;
+  font-weight: 700;
+  background-color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.team_blue {
+  width: 50%;
+  background-color: #3742fa;
+  color: #fff;
+  font-weight: 700;
+}
+
+.buttons button {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: teal;
+  color: #fff;
+  transition: all 0.3s linear;
+  outline: 0;
+}
+
+.buttons button:hover {
+  background-color: rgb(56, 209, 209);
+  color: #000;
+}
+
+.draw_again {
+  margin-top: 10px;
+  width: 200px;
+  cursor: pointer;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: teal;
+  color: #fff;
+  transition: all 0.3s linear;
+  outline: 0;
+}
+
+.draw_again:hover {
+  background-color: rgb(56, 209, 209);
+  color: #000;
+}
+
+.teams li {
+  list-style-type: none;
+}
+
+@media (max-width: 765px) {
+  .teams {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .draw_again {
+    outline: 0;
   }
 }
